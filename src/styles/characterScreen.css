@@ -1,0 +1,92 @@
+h1, h2, h3{
+    color: #516091;
+}
+
+.character-info__image{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.character-card__cont{
+    background-color: #F3F0E2;
+    color: #2E364F;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 15px 0px 0px;
+}
+.character-card__link a{
+    color: #F3F0E2;
+}
+.character-card__link{
+    width: 100%;
+    padding: 10px;
+    background: #2E364F;
+    color: #F3F0E2;
+    cursor: pointer;
+    border: 1px solid #2E364F;
+    border-left: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+.character-card__link:hover{
+    background-color: #F3F0E2;
+    color: #2E364F;
+}
+
+
+/* Comparative */
+.comparative--labels_row{
+    flex-wrap: initial!important;
+}
+.comparative--labels_col{
+    min-width: 150px;
+}
+.comparative--labels_cont{
+    align-self: flex-end;
+}
+.comparative--labels_cont div{
+    border-top: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.comparative--character_cont{
+    text-align: center;
+    min-width: 200px;
+}
+.comparative--character_cont div{
+    border-top: 1px solid gray;
+    padding: 5px;
+}
+.comparative--character_cont img{
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+.comparative--character_delete-option{
+    color: crimson;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Home Screen */
+.homeScreen__options{
+    text-align: center;
+    height: 150px;
+    border-radius: 10px;
+    background-image: url('../../public/images/Rick-and-Morty-Characters.jpg');
+    filter: grayscale(0.1);
+}
+.homeScreen__options p{
+    font-size: 2rem;
+    font-weight: bold;
+    background: #EBEDC8;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #516091;
+    cursor: pointer;
+}
+.homeScreen__options p:hover{
+    background: #516091;
+    color: #EBEDC8;
+}

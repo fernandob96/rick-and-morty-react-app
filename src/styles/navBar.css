@@ -1,0 +1,7 @@
+.pagination  .page-item{
+    cursor: pointer;
+}
+.nav-bar__search-field__cont{
+    max-width: 185px;
+    margin-right: 20px;
+}
